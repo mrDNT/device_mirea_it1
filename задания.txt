@@ -1,0 +1,31 @@
+Вариант 4 - ветка репозитория - android-11.0.0_r45
+repo init -u https://android.googlesource.com/platform/manifest -b android-11.0.0_r45
+repo sync -j 16
+
+1. Создать дерево устройства для устройства с именем MIREA IT1.
+Путь к дереву device/mirea/it1
+a. Производитель устройства: MIREA.
+b. Кодовое имя: it1.
+c. Кодовое имя продукта: mirea_it1
+d. Архитектура процессора ARM64, платформа Snapdragon 845
+(кодовое имя:sdm845, характеристики
+https://www.qualcomm.com/products/snapdragon-845-mobile-platf
+orm и здесь
+https://en.wikichip.org/wiki/qualcomm/snapdragon_800/845 ) Их
+необходимо учесть при определении архитектуры CPU и
+версии Cortex.
+e. Объем образа системы 4ГБ, образа ядра 96 МБ, образа vendor
+1.5 ГБ.
+Устройство не содержит раздела recovery и поддерживает обновления A/B
+для разделов boot, system и vendor.
+f. Исходный код ядра находится в папке kernel/mirea/it1.
+Конфигурационный файл: it_defconfig
+g. Первая версия Android на устройстве - 10.0.
+h. Режим безопасной загрузки отключен
+
+Устройство не содержит раздела recovery и поддерживает обновления A/B
+для разделов boot, system и vendor.
+f. Исходный код ядра находится в папке kernel/mirea/it1.
+Конфигурационный файл: it_defconfig
+g. Первая версия Android на устройстве - 10.0.
+h. Режим безопасной загрузки отключен
