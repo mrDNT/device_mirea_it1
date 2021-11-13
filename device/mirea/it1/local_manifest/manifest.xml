@@ -2,9 +2,9 @@
 <manifest>
 <remote name ="phh" fetch ="https://github.com/phhusson/vendor_hardware_overlay" />
 	
-	<project path="system/base" name="platform/system/base" remote ="phh" revision = "removed repository" />
-	<project path="system/void" name="platform/system/void" remote ="phh" revision = "android-11.0.0_r45-phh" />
-	<project path="hardware/overlay" name="vendor/hardware/overlay" remote ="phh" revision = "pie" />
-	<project path="foss" name="vendor/foss" remote ="phh" revision = "master" />
+	<project path="system/base" name="platform_system_base" remote ="phh" revision = "removed repository" />
+	<project path="system/void" name="platform_system_void" remote ="phh" revision = "android-11.0.0_r45-phh" />
+	<project path="hardware/overlay" name="vendor_hardware_overlay" remote ="phh" revision = "pie" />
+	<project path="foss" name="vendor_foss" remote ="phh" revision = "master" />
 	
 </manifest>
