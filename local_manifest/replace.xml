@@ -2,7 +2,7 @@
 <manifest>
 	<remote name ="phh" fetch ="https://github.com/phhusson/" />
 	
-	<remove-project name ="platform/frameworks/av" />
+	<remove-project name="platform/frameworks/av" />
 	<project path="frameworks/av" name="platform_frameworks_av" remote= "phh" revision = "android-11.0.0_r45-phh" />
 	
 	<remove-project  name="platform/frameworks/native" />
@@ -33,7 +33,7 @@
 	<project path="bootable/recovery" name="platform_bootable_recovery" remote= "phh" revision = "android-11.0.0_r45-phh" />
 	
 	<remove-project  name="platform/system/bt" />
-	<project path="system/bt" name="platform_system_bt" remote= "phh" revision = "android-11.0.0_r45-phh" />
+	<project path="system/bt" name="platform_system_bt" remote= "phh" revision= "android-11.0.0_r45-phh" />
 	
 	<remove-project  name="platform/system/vold" />
 	<project path="system/vold" name="platform_system_vold" remote= "phh" revision = "android-11.0.0_r45-phh" />

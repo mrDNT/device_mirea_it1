@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+<remote name ="mrDNT" fetch ="https://github.com/mrDNT/device_mirea_it1" />
+<remote name ="phh" fetch ="https://github.com/phhusson/vendor_hardware_overlay" />
+	
+	<project path="device/mirea/it1" name="device_mirea_it1" remote ="mrDNT" revision= "main" />
+	<project path="system/base" name="platform_system_base" remote ="phh" revision= "removed repository" />
+	<project path="system/void" name="platform_system_void" remote ="phh" revision= "android-11.0.0_r45-phh" />
+	<project path="hardware/overlay" name="vendor_hardware_overlay" remote="phh" revision = "pie" />
+	<project path="foss" name="vendor_foss" remote="phh" revision= "master" />
+	
+</manifest>
